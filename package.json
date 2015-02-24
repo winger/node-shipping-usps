@@ -1,0 +1,30 @@
+{
+  "name": "shipping-usps",
+  "version": "0.0.1",
+  "description": "USPS API bindings for Node.JS",
+  "author": {
+    "name": "uh-sem-blee, Co. | typefoo",
+    "email": "hello@typefoo.com"
+  },
+  "maintainers": [
+    {
+      "name": "jjosef",
+      "email": "john.josef@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typefoo/node-shipping-usps"
+  },
+  "main": "./lib/index.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^1.2.1",
+    "soap": "^0.8.0",
+    "xml2json": "~0.3.2"
+  }
+}
