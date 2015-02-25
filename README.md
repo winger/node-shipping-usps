@@ -10,7 +10,6 @@
   var uspsAPI = require('shipping-usps');
 
   var usps = new uspsAPI({
-    environment: 'sandbox', // or live
     debug: true,
     username: 'USERNAME',
     password: 'PASSWORD',
