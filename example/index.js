@@ -3,7 +3,6 @@ var util = require('util');
 var fs = require('fs');
 
 var usps = new uspsAPI({
-  environment: 'sandbox', // or live
   debug: true,
   username: 'USERNAME',
   password: 'PASSWORD',
